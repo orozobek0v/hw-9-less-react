@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+.title-block div {
+	width: 520px;
+	height: 70px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	margin: 50px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: white;
+}
+.title-block div:hover {
+	border: 2px solid aqua;
+}
